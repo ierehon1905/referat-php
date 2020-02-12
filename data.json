@@ -1,0 +1,54 @@
+{
+    "regions": [
+        {
+            "value": 1,
+            "name": "First",
+            "color": "#123456"
+        },
+        {
+            "value": 10,
+            "name": "Second",
+            "color": "#654321"
+        },
+        {
+            "value": 4,
+            "name": "Third",
+            "color": "#567890"
+        },
+        {
+            "value": 6,
+            "name": "Forth",
+            "color": "#098765"
+        },
+        {
+            "value": 13,
+            "name": "Fifth",
+            "color": "#AAffee"
+        },
+        {
+            "value": 16,
+            "name": "Sixth",
+            "color": "#dd00aa"
+        },
+        {
+            "value": 1,
+            "name": "Seventh",
+            "color": "#cc7711"
+        },
+        {
+            "value": 13,
+            "name": "Eighth",
+            "color": "#332244"
+        },
+        {
+            "value": 3,
+            "name": "Ninth",
+            "color": "#857563"
+        },
+        {
+            "value": 8,
+            "name": "Tenth",
+            "color": "#725423"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.error-message {
+    color: red;
+    background-color: rgb(255, 188, 188);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+.legend-icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin-right: 0.5em;
+    border-radius: 10%;
+}
