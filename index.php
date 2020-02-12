@@ -23,8 +23,10 @@
 
     $regions = $json->regions;
     var_dump($regions);
+    echo '<br/>';
 
     // Легенда
+    echo '<div class="legend"><div class="legend-item bold">Легенда</div>';
     foreach ($regions as $index => $region) {
         $name = $region->name;
         $color = $region->color;
@@ -38,6 +40,7 @@
             '</div>';
         // echo $color;
     }
+    echo "</div>";
 
     ?>
 </body>

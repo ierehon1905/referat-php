@@ -8,9 +8,24 @@ body {
     background-color: rgb(255, 188, 188);
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.legend {
+    padding: 1em;
+    display: inline-block;
+    box-shadow: 0 2px 5px 0px rgb(172, 172, 172);
+    border-radius: 1em;
+}
+
 .legend-item {
     display: flex;
     align-items: center;
+    margin-bottom: 0.4em;
+}
+.legend-item:last-of-type {
+    margin-bottom: 0;
 }
 
 .legend-icon {
