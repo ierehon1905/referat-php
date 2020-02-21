@@ -11,18 +11,12 @@
 <body>
     <h1>Реферат</h1>
     <?php
-    $string = file_get_contents(__DIR__ . '/data.json');
-    if ($string === false) {
-        echo '<h2 class="error-message">Не удалось считать содержимое файла.</h2>';
-    }
+    include "utils.php";
 
-    $json = json_decode($string);
-    if ($json === null) {
-        echo '<h2 class="error-message">Не удалось декодировать json.</h2>';
-    }
+    echo '<img src="' . './image.php"/>';
 
-    $regions = $json->regions;
-    var_dump($regions);
+    $regions = get_regions();
+    // var_dump($regions);
     echo '<br/>';
 
     // Легенда
@@ -36,12 +30,10 @@
             . '<span class="legend-icon" style="background-color:' . $color . ';"></span>'
             . '<span>'
             . $name
-            . '</span>' .
-            '</div>';
-        // echo $color;
+            . '</span>'
+            . '</div>';
     }
     echo "</div>";
-
     ?>
 </body>
 
