@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <h1>Реферат</h1>
+    <h1>Курсовой проект</h1>
     <?php
     include "utils.php";
-
+    echo "<main>";
     echo '<img src="' . './image.php"/>';
 
     $regions = get_regions();
     // var_dump($regions);
-    echo '<br/>';
+    // echo '<br/>';
 
     // Легенда
     echo '<div class="legend"><div class="legend-item bold">Легенда</div>';
@@ -34,6 +34,7 @@
             . '</div>';
     }
     echo "</div>";
+    echo "</main>";
     ?>
 </body>
 
